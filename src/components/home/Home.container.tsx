@@ -4,8 +4,6 @@ const Background = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: greenyellow;
-
   height: 100vh;
 `;
 
@@ -22,15 +20,16 @@ const ContainerWrapper = styled.div`
 `;
 
 const Container = styled.div`
+  font-size: 1.6rem;
   width: 300px;
   height: 300px;
-  background-color: forestgreen;
+  border: 1px solid #f1f1f1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 7px;
-  margin: 10px;
+  margin: 20px 10px;
   cursor: pointer;
 `;
 
